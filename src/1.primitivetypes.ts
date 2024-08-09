@@ -21,7 +21,7 @@ console.log("myBool value : ", myBool);
 console.log("myNull value : ", myNull);
 console.log("myUndefined value : ", myUndefined);
 
-// /* We cannot assign value to variables other than their types. So, following are invalid. */
+/* We cannot assign value to variables other than their types. So, following are invalid. */
 // myNum = "Hello World";
 // myStr = 10;
 // myBool = 1;

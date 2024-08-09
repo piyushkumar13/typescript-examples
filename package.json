@@ -2,7 +2,7 @@
   "name": "typescript-examples",
   "version": "1.0.0",
   "description": "This repo contains typescript examples",
-  "main": "src/1.primitivetypes.ts",
+  "main": "src/1.types/1.primitivetypes.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

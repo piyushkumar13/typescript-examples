@@ -94,6 +94,22 @@ let myStringFormatter1: StringFormat1 = (name: string, addOn: number) => {
 console.log("My string formatter 1", myStringFormatter1("PK", 3));
 
 
+/* ===================== Interface with array type ==================== */
+
+interface INumArray {
+    [index: number]: number;
+}
+let myNumArray: INumArray = [1,3,4];
+console.log("MyNumArray : ", myNumArray);
+
+interface IStrArray {
+    [index: string]: string;
+}
+let myStrArray: IStrArray = {firstElement: "Piyush", secondElement: "Kumar"};
+myStrArray["thirdElement"] = "Kirad";
+console.log("MyStrArray : ", myStrArray);
+
+
 /* ===================== Interface implementation by classes ========================= */
 
 interface StringFormat2 {
